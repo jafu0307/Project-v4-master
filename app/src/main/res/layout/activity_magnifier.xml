@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLoadImageClick"
+        android:padding="12dp"
+        android:text="請選擇一張照片" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:minHeight="300dp"
+        android:onClick="onCropImageClick"
+        android:padding="12dp"
+        android:text="點我剪裁" />
+
+    <com.theartofdev.edmodo.cropper.CropImageView
+
+
+        android:id="@+id/CropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:minHeight="100dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:minHeight="200dp" />
+
+    <Button
+        android:id="@+id/bspeak"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:minHeight="300dp"
+        android:onClick="TTS"
+        android:padding="12dp"
+        android:text="語音開啟" />
+
+    <Button
+        android:id="@+id/bstop"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:minHeight="300dp"
+        android:onClick="TTS"
+        android:padding="12dp"
+        android:text="語音停止" />
+
+</LinearLayout>

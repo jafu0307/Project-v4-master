@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/anim/abc_slide_out_top.xml"
+    }
+]

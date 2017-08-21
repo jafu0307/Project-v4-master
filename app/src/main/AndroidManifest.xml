@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.chengwei.project_v2">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <!-- Google API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDW4PEot69itn_8Q4vupIzWFbXzCeP1Mvs" />
+        <!-- Activity -->
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AndroidDatabaseManager"
+            android:label="@string/app_name" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileAddActivity" />
+        <activity
+            android:name=".MapsFragSos"
+            android:label="@string/title_activity_sos_gps" />
+        <activity
+            android:name=".ContactPopUpActivity"
+            android:label=".ContactModifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity
+            android:name=".ContactModifyActivity"
+            android:label=".ContactModifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapsFragNav"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavigationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoElderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FamilyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoFamilyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MagnifierActivity"
+            android:label="demo" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropResultActivity" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+    </application>
+
+</manifest>

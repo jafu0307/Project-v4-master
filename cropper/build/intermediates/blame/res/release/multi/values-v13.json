@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/chiafu/AndroidStudioProjects/Project-v2-master/cropper/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v13/values-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/Users/chiafu/.android/build-cache/ef4a746d24386824ca37a98d4d425a334abed23d/output/res/values-v13/values-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            }
+        ]
+    }
+]
